@@ -1,0 +1,33 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python cache and env
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# VSCode and Jupyter
+.vscode/
+.ipynb_checkpoints/
+
+# HuggingFace / model cache
+.cache/
+huggingface/
+
+# Weaviate local data
+weaviate_data/
+raft/
+mydocumentchunk/
+
+# Large data or logs
+*.log
+*.csv
+*.tsv
+*.xlsx
+
+# Optional: Ignore heavy datasets but keep samples
+CancerDATA/
+Relevant_Papers/
