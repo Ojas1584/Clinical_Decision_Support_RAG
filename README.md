@@ -41,6 +41,7 @@ User Query
     │
     ▼
 Final Answer & Sources
+```
 
 Step Descriptions:
 
@@ -64,7 +65,7 @@ weaviate-client – vector database operations.
 
 llama-cpp-python – high-performance local inference of quantized LLMs.
 
-Sentence Transformers – high-quality text embeddings.
+Sentence Transformers – high-quality embeddings.
 
 pandas – data analysis and evaluation.
 
@@ -76,7 +77,7 @@ Llama.cpp – efficient inference of GGUF-quantized models locally.
 
 Marker – converts medical PDFs into clean Markdown for ingestion.
 
-Conda – Python environment management.
+Conda – environment management.
 
 Key Features ✨
 
@@ -98,10 +99,11 @@ Conda
 
 Docker
 
-Installation & Setup:
 
+Installation & Setup:
+```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/Ojas1584/Clinical_Decision_Support_RAG
 cd <your-repo-name>
 
 # Create and activate Conda environment
@@ -120,32 +122,4 @@ jupyter notebook data_ingestion.ipynb
 
 # Start interacting with the knowledge base
 python eval.py
-
-Model Evaluation Results 🏆
-
-A comparative analysis of five leading 7B/8B models was conducted:
-
-Model Name	Q1	Q2	Q3	Q4	Q5	Average	Rank
-Llama-3.1-8B-Instruct	10	10	9.5	7.5	10	9.4	1
-Mistral-7B-Instruct-v0.3	10	9	6	10	10	9.0	2
-Gemma-1.1-7B-Instruct	7	1	3	10	10	6.2	3
-Nous-Hermes-2-Pro-Llama-3	3	10	7	2	5	5.4	4
-Qwen1.5-7B-Chat	8	10	2	5	2	5.4	4
-Future Work 🔮
-
-Next-Gen RAG: Implement self-critique mechanisms (Self-RAG) for improved reliability.
-
-Web Interface: Build a Streamlit or Flask UI for broader accessibility.
-
-Expanded Knowledge Base: Include additional clinical guidelines to broaden expertise.
-
-Acknowledgements & Data Sources
-
-This project relies entirely on official guidelines from:
-
-American Diabetes Association (ADA) – Standards of Care in Diabetes
-
-Indian Council of Medical Research (ICMR) – ICMR Guidelines Portal
-
-Note on Copyright:
-Original documents are not redistributed. The vector database was created from official sources. Users should download the latest guidelines directly from ADA and ICMR.
+```
