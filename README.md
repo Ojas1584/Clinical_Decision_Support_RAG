@@ -106,4 +106,18 @@ jupyter notebook data_ingestion.ipynb
 # Start interacting
 python eval.py
 
+```
+---
+
+##  Acknowledgements & Data Sources
+
+This project relies on official clinical guidelines from:
+
+- **[American Diabetes Association (ADA) – Standards of Care in Diabetes](https://professional.diabetes.org/standards-of-care)**  
+  Official ADA publication outlining evidence-based standards for diabetes care and clinical management.
+
+- **[Indian Council of Medical Research (ICMR) – ICMR Guidelines Portal](https://www.icmr.gov.in/guidelines)**  
+  Repository of national medical guidelines, including disease-specific diagnostic and treatment protocols published by ICMR.
+
+---
 
