@@ -59,3 +59,51 @@
 
 - Generate Answer- Synthesizes a response strictly based on the provided context.
 
+## Tech Stack:
+
+-Languages: Python
+
+-Frameworks & Libraries:
+
+weaviate-client – vector database operations
+
+llama-cpp-python – high-performance local LLM inference
+
+Sentence Transformers – high-quality embeddings
+
+pandas – evaluation and analysis
+
+-Tools & Technologies:
+
+Weaviate – vector database
+
+Llama.cpp – local inference of GGUF models
+
+Marker – PDF → Markdown conversion
+
+Conda – environment management
+
+## Installation & Setup:
+```bash 
+# Clone the repository
+git clone https://github.com/Ojas1584/Clinical_Decision_Support_RAG
+cd Clinical_Decision_Support_RAG
+
+# Create & activate Conda environment
+conda create -n rag_py311 python=3.11
+conda activate rag_py311
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start Weaviate
+docker-compose up -d
+
+# Prepare and ingest data
+jupyter notebook data_preparation.ipynb
+jupyter notebook data_ingestion.ipynb
+
+# Start interacting
+python eval.py
+
+```bash
