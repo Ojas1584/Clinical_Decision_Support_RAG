@@ -1,4 +1,4 @@
-# Clinical-RAG: Intelligent Assistant for Medical 
+# Clinical-RAG: Intelligent Assistant for Medical Guidelines
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python&logoColor=yellow)](https://www.python.org/)
